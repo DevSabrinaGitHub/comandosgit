@@ -4,7 +4,7 @@
 git config --global user.email "nuestro email"
 git confif --global user.name "nuestro nombre"
 
-#acceder a las listas o cambios 
+#acceder a las listas o cambios:
 git config --global list 
 
 
