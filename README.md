@@ -11,8 +11,18 @@ git config --global list
 #crear repositorio en git desde cualquier disco 
 cd c: 
 
-//nombre repo que crearemos:
-mkdir nombrerepositorio
+//nombre carpeta que crearemos:
+mkdir nombrecarpeta
 
-//eliminar un repositorio: 
-rmdir nombredelrepositorio
+//eliminar una carpeta: 
+rmdir nombrecarpeta
+
+
+//acceder a la carpeta para crear un archivo: 
+cd nombrecarpeta
+
+//una vez que entramos a la carpeta, creamos el archivo: 
+mkdir nombrearchivo
+
+//iniciamos git: 
+gir init
