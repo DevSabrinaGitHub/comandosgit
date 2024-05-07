@@ -107,6 +107,17 @@ git config --global core.abbrev 5
 //nos imprime el id en 5 digitos
 
 
+//ver que cambios realizamos o que codigos agregamos/eliminamos: 
+git diff 
+git add archivo.extension
+git diff
+git diff --stage
+git status 
 
-
-
+//subir a github los cambios: 
+//vamos a github, copiamos el codigo que nos muestra en nuestra repo
+git remote add origin linkdelperfilyrepo
+//pegamos en la terminal de git
+//copiamos del github y pegamos en la terminal
+git push -u origin main 
+//enter y nos indica que debemos poner el nombre de usuario de github y contraseña
